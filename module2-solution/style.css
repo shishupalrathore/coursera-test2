@@ -3,7 +3,8 @@
 }
 
  body {
-    margin: 0;
+    margin-right: 10px;
+    margin-left: 10px;
     padding: 0;
     font-family: Helvetica;
     font-size: 20px;
@@ -15,6 +16,7 @@ h1 {
   	text-align: center;
     margin-bottom: 30px;
   	}
+
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
@@ -86,7 +88,7 @@ p {
     width: 25%;
   }
   .col-lg-4 {
-    width: 32%;
+    width: 32.5%;
   }
   .col-lg-5 {
     width: 41.66%;
@@ -114,7 +116,6 @@ p {
   }
 }
 
-
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
@@ -137,7 +138,7 @@ p {
     width: 41.66%;
   }
   .col-md-6 {
-    width: 50%;
+    width: 49%;
   }
   .col-md-7 {
     width: 58.33%;
@@ -155,7 +156,7 @@ p {
     width: 91.66%;
   }
   .col-md-12 {
-    width: 100%;
+    width: 99%;
   }
 }
 
