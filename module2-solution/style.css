@@ -68,7 +68,7 @@ h1 {
 }
 
 p {
-  clear: right;
+  clear: left;
   padding: 5px;
 }
 
