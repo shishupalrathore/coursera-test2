@@ -1,0 +1,164 @@
+body {
+  font-size: 16px;
+  color: white;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: gray;
+
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Company name */
+  font-family: 'Lora', serif;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0px;
+  margin-bottom: 0;
+  line-height: .5;
+  vertical-align: middle;
+}
+
+#nav-list{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 5px;
+
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid white;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+
+#nav-list a {
+  color: black;
+  text-align: center;
+  font-size: 1.3em;
+  vertical-align: middle;
+  background-color: white;
+}
+#nav-list a:hover {
+  background: gray;
+}
+
+
+/* END HEADER */
+
+/* HOME PAGE */
+.container {
+  font-size: 1.5em;
+  color: black;
+}
+
+h2 {
+    margin: 0px;
+    font-size: 1.8em;
+    color: black;
+    text-align: center;
+    font-style: bold;
+  }
+
+#Chicken, #Beef, #Sushi {
+  position: relative;
+  background-color: gray;
+  margin-top: 10px;
+  padding: 20px 10px;
+}
+
+#title1
+ {
+  font-size: 1.3em;
+  font-style: bold;
+  text-align: center;
+}
+
+/* END HOME PAGE */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .container .jumbotron {
+      height: 675px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Home Page */
+  /*.container {
+    height: 558px;
+  }
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+/* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Food, LLC */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  /* End Header */
+
+/* Home Page */
+  }
+  /* End Home Page */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+ 
+  /* End Header */
+
+  /* Home Page */
+  .container {
+    margin-top: 30px;
+    padding: 0;
+  }
+
+}
